@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+	<meta charset="utf-8">
+	<title>Dough</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<link rel="stylesheet" type="text/css" href="./archive/dough.0.1.0.css"/>
+
+</head>
+<body>
+<div class="nav_top nav_fixed">
+	<h1>
+		<img src="images/daumlogo.png" class="logo" alt="Daum" width="50"/>
+		Dough
+	</h1>
+	<ul>
+		<li><a href="#">메뉴A</a></li>
+		<li class="on"><a href="#">메뉴B</a></li>
+		<li><a href="#">메뉴C</a></li>
+		<li><a href="#">My Page</a></li>
+	</ul>
+	<div class="combo f_r">
+		<input id="inpCombo" type="text" name="" size="20">
+		<button type="button" class="btn">검색</button>
+	</div>
+</div>
+<div class="wrap_page nav_fixed">
+	<div class="wrap">
+		<h1>
+			<img src="images/daumlogo.png" class="logo" alt="Daum" width="80"/>
+			Dough Sample page
+		</h1>
+		<ul class="nav_bar">
+			<li><a href="#">메뉴A</a></li>
+			<li class="on"><a href="#">메뉴B</a></li>
+			<li><a href="#">메뉴 메뉴 C</a></li>
+			<li class="f_r"><a href="#">MY PAGE</a></li>
+		</ul>
+		<ul class="nav_bar has_sub">
+			<li><a href="#">메뉴A</a></li>
+			<li class="on">
+				<a href="#">메뉴B</a>
+				<ul>
+					<li class="on"><a href="#none">메뉴1</a></li>
+					<li><a href="#none">메뉴2</a></li>
+					<li><a href="#none">메뉴3</a></li>
+					<li><a href="#none">메뉴4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">메뉴 메뉴 C</a></li>
+			<li class="f_r"><a href="#">MY PAGE</a></li>
+		</ul>
+	</div>
+	<div class="wrap wrap_content">
+		<div class="f_l grid_20">
+			<ul class="nav_list has_sub scroll_fix">
+				<li class="tit">Sample Guide</li>
+				<li class="on">
+					<a href="#">메뉴1</a>
+					<ul>
+						<li class="on"><a href="#anchor1">Tab - bar</a></li>
+						<li><a href="#anchor2">Tab - list</a></li>
+						<li><a href="#anchor3">Panel</a></li>
+						<li><a href="#anchor4">List</a></li>
+						<li><a href="#anchor5">Thumbnail Group</a></li>
+						<li><a href="#anchor6">Pop over</a></li>
+						<li><a href="#anchor7">Window</a></li>
+						<li><a href="#anchor7b">Window (popup)</a></li>
+						<li><a href="#anchor8">Form Element</a></li>
+						<li><a href="#anchor9">Table</a></li>
+					</ul>
+				</li>
+				<li><a href="#">메뉴2</a></li>
+				<li><a href="#">메뉴3</a></li>
+				<li><a href="#">메뉴4</a></li>
+			</ul>
+		</div>
+		<div class="f_r grid_75">
+			<h2>Title h2</h2>
+			<span class="line_break"></span>
+			안녕하세요. 안녕하세요.<br/><br/>
+
+			<p>
+하지만 민주통합당을 비롯한 야권은 이미 박 후보를 둘러싼 논란과 의혹에 대해 자체 검증 작업을 벌이고 있고, 장준하 타살 의혹이나 정수장학회 문제, 공천 헌금 파문 등에 대해서는 사건 당사자들이 박 후보에게 진상 규명과 사태 해결을 촉구하고 있어 불똥이 어디로, 얼마나 튈지는 예단할 수 없다.
+
+야권의 혹독한 검증 공세가 박 후보의 발목을 잡을 수도 있다. 박 후보의 5·16 발언은 지난 5년 동안 변화를 보여 왔지만, 여전히 국민 눈높이에 미치지 못한다는 지적을 받고 있다.
+
+2007년 한나라당 경선 청문회 때 그는 "5·16은 구국의 혁명"이라고 단언했지만, 올해 경선 과정에선 '불가피한 최선의 선택', '정상적인 것은 아니다.' 등으로 수위를 조절했다. 하지만 "불가피한 선택을 할 수밖에 없었던 것에서 아버지 스스로도 '불행한 군인을 만들었다'고 생각했던 것"이라고 밝히는 등 개인적 관점에 국한된 인식도 드러냈다.
+			</p>
+
+			<span class="line_break"></span>
+
+			<h3 id="anchor1">Tab - bar</h3>
+
+			<ul class="tab_bar">
+				<li class="on"><a href="#panel1">탭메뉴1</a></li>
+				<li><a href="#panel2">탭메뉴2</a></li>
+				<li><a href="#panel3">탭메뉴3</a></li>
+				<li class="f_r"><a href="#panel4">탭메뉴4</a></li>
+			</ul>
+			
+			<span class="line_break"></span>
+
+			<h3>Tab - small</h3>
+
+			<ul class="tab_bar tab_small">
+				<li class="on"><a href="#panel1">탭메뉴1</a></li>
+				<li><a href="#panel2">탭메뉴2</a></li>
+				<li><a href="#panel3">탭메뉴3</a></li>
+			</ul>
+			
+			<span class="line_break"></span>
+
+			<h3 id="anchor3">Panel</h3>
+			<p class="panel">
+				2007년 한나라당 경선 청문회 때 그는 <b>"5·16은 구국의 혁명"이라고 단언했지만,</b> 올해 경선 과정에선 '불가피한 최선의 선택', '정상적인 것은 아니다.' 등으로 수위를 조절했다. 하지만 "불가피한 선택을 할 수밖에 없었던 것에서 아버지 스스로도 '불행한 군인을 만들었다'고 생각했던 것"이라고 밝히는 등 개인적 관점에 국한된 인식도 드러냈다.<br/>
+			</p>
+			<h3>Panel-info</h3>
+			<p class="panel panel_info">
+				2007년 한나라당 경선 청문회 때 그는 "5·16은 구국의 혁명"이라고 단언했지만, 올해 경선 과정에선 '불가피한 최선의 선택', '정상적인 것은 아니다.' 등으로 수위를 조절했다. 하지만 "불가피한 선택을 할 수밖에 없었던 것에서 아버지 스스로도 '불행한 군인을 만들었다'고 생각했던 것"이라고 밝히는 등 개인적 관점에 국한된 인식도 드러냈다.
+			</p>
+			<h3>Panel-dark</h3>
+			<p class="panel panel_dark">
+				2007년 한나라당 경선 청문회 때 그는 "5·16은 구국의 혁명"이라고 단언했지만, 올해 경선 과정에선 '불가피한 최선의 선택', '정상적인 것은 아니다.' 등으로 수위를 조절했다. 하지만 "불가피한 선택을 할 수밖에 없었던 것에서 아버지 스스로도 '불행한 군인을 만들었다'고 생각했던 것"이라고 밝히는 등 개인적 관점에 국한된 인식도 드러냈다.
+			</p>
+			<h3>Panel-alert</h3>
+			<p class="panel panel_alert">
+				2007년 한나라당 경선 청문회 때 그는 "5·16은 구국의 혁명"이라고 단언했지만, 올해 경선 과정에선 '불가피한 최선의 선택', '정상적인 것은 아니다.' 등으로 수위를 조절했다. 하지만 "불가피한 선택을 할 수밖에 없었던 것에서 아버지 스스로도 '불행한 군인을 만들었다'고 생각했던 것"이라고 밝히는 등 개인적 관점에 국한된 인식도 드러냈다.
+			</p>
+
+
+
+			<span class="line_break"></span>
+
+			<h3 id="anchor4">리스트</h3>
+			<strong>순서없는 목록</strong>
+			<ul class="list_circle">
+				<li>리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.</li>
+				<li>리스트리스트.</li>
+			</ul>
+
+			<strong>순서있는 목록</strong>
+			<ol class="list_num">
+				<li>리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.리스트.</li>
+				<li>리스트리스트.</li>
+			</ol>
+
+			<span class="line_break"></span>
+
+			<h3 id="anchor5">썸네일그룹 h3</h3>
+
+			<strong>썸네일그룹 default - 5 column</strong>
+
+			<ul class="group_thumb">
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+			</ul>
+
+			<strong>썸네일그룹 - 2 column</strong>
+			<ul class="group_thumb" data-thumb-col="2">
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+			</ul>
+
+			<strong>썸네일그룹 - 3 column</strong>
+			<ul class="group_thumb" data-thumb-col="3">
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+			</ul>
+
+			<strong>썸네일그룹 - 4 column</strong>
+			<ul class="group_thumb" data-thumb-col="4">
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+			</ul>
+
+			<strong>썸네일그룹 - 6 column</strong>
+			<ul class="group_thumb" data-thumb-col="6">
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+				<li class="thumb">
+					<a href="#">
+						<img src="http://icon.daumcdn.net/w/c/12/08/3434475802797703.jpeg" alt="이미지" />
+						<span class="caption">"이젠 여자친구 사귈래요, 몸매 좋은 ...</span>
+					</a>
+				</li>
+			</ul>
+
+
+			<span class="line_break"></span>
+			<h3 id="anchor7">Window</h3>
+
+			<div class="window">
+				<div class="window_head">
+					Daum CRMS Login
+				</div>
+				<div class="window_body align_center">
+					애플의 아이폰5가 다음 달 초에 국내 시장에 출시될 것으로 보인다.22일 복수의 전자·통신업계 관계자들에 따르면 아이폰5는 SK텔레콤과 KT 등 국내 이동통신사를 통해 12월 초 시판된다..
+				</div>
+				<div class="window_foot align_center">
+					<a href="javascript:;" class="btn btn_confirm">확인</a>
+					<a href="javascript:;" class="btn">취소</a>
+				</div>
+			</div>
+			
+			<span class="line_break"></span>
+			
+			<h3 id="anchor8">입력 폼 h3</h3>
+			<form method="" action="">
+				<fieldset>
+					<legend class="screen_out">입력폼 legend</legend>
+
+					<h4>버튼종류</h4>
+					<a href="#" class="btn">일반버튼</a>
+					<button type="button" class="btn">(button)</button>
+					<input type="button" value="input" class="btn"/>
+					<a href="#" class="btn btn_confirm">확인버튼</a>
+
+					<h4>버튼사이즈</h4>
+					<a href="#" class="btn btn_mini">mini</a><br/>
+					<a href="#" class="btn btn_small">small</a><br/>
+					<a href="#" class="btn">기본사이즈</a><br/>
+					<a href="#" class="btn btn_large">라지(large)</a>
+					<br/><br/>
+					
+					<div class="combo">
+						<a href="#" class="btn">버튼(a)</a>
+						<a href="#" class="btn">버튼(a)-2</a>
+						<a href="#" class="btn">버튼(a)-3</a>
+					</div>
+					<br/><br/>
+					
+					<label for="inpCombo">검색</label>
+					<div class="combo">
+						<input id="inpCombo" type="text" name="" size="20"/>
+						<button type="button" class="btn">입력</button>
+					</div>
+					<br/><br/>
+
+					<div class="combo">
+						<input type="text" name="" size="37" placeholder="검색내용을 입력하세요"/>
+						<button type="button" class="btn">입력</button>
+					</div>
+					<br/><br/>
+
+					<div class="combo">
+						<button type="button" class="btn">Button</button>
+						<input type="text" name="" size="26"/>
+						<button type="button" class="btn">검색하기</button>
+					</div>
+					<br/><br/>
+
+					<select>
+						<option value="" selected="selected">셀렉트1</option>
+						<option value="">셀렉트2</option>
+					</select>
+					<div class="combo">
+						<input  type="text" name="" size="20"/>
+						<button type="button" class="btn">입력</button>
+					</div>
+
+					
+					<h4>인풋 h4</h4>
+					<label for="tf1">텍스트입력</label>
+					<input type="text" id="tf1" name=""/>
+					<button type="button" class="btn">입력</button><br/>
+
+					<label for="tf3">전화번호 입력</label>
+					<input type="text" id="tf3" name="" size="3"/>
+					<span class="txt_dash">-</span>
+					<input type="text" id="tf4" name="" size="4"/>
+					<span class="txt_dash">-</span>
+					<input type="text" id="tf5" name="" size="4"/><br/>
+
+					<h4>텍스트필드 h4</h4>
+					<label for="tf2">텍스트입력</label>
+					<textarea id="tf2" cols="60" rows=""></textarea><br/>
+
+					<h4>라디오,체크박스</h4>
+					<input type="radio" id="rad1" name="rad" /><label for="rad1">라디오1</label>
+					<input type="radio" id="rad2" name="rad" /><label for="rad2">라디오2</label><br/>
+					<input type="checkbox" id="chk1" name="" /><label for="chk1">체크박스1</label>
+					<input type="checkbox" id="chk2" name="" /><label for="chk2">체크박스1</label>
+					<input type="checkbox" id="chk3" name="" /><label for="chk3">체크박스1</label>
+
+					<h4>셀렉트박스</h4>
+					<label for="opt1">선택</label>
+					<select id="opt1">
+						<option value="" selected="selected">셀렉트1</option>
+						<option value="">셀렉트2</option>
+					</select><br/>
+
+
+
+
+					<span class="line_break"></span>
+
+					<div class="align_center">
+						<button type="submit" class="btn">저장하기</button>
+						<button type="button" class="btn">취소</button>
+					</div>
+				</fieldset>
+			</form>
+
+			<span class="line_break"></span>
+
+			<h3 id="anchor9">테이블 &amp; 게시판</h3>
+
+			<table>
+				<caption>Generic table Example</caption>
+				<colgroup>
+				</colgroup>
+				<thead>
+					<tr>
+						<th>제목셀1</th>
+						<th>제목셀2</th>
+						<th>제목셀3</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>제목 올ㅋ</th>
+						<td>내용</td>
+						<td>내용</td>
+					</tr>
+					<tr>
+						<th>제목 올ㅋ</th>
+						<td colspan="2">내용</td>
+					</tr>
+					<tr>
+						<th>제목 들어감</th>
+						<td rowspan="2">내용</td>
+						<td>내용</td>
+					</tr>
+					<tr>
+						<th>제목 들어감</th>
+						<td>내용</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table class="tbl_board">
+				<caption>Vertical Table Example (Board type)</caption>
+				<thead>
+					<tr>
+						<th>No.</th>
+						<th>제목셀1</th>
+						<th>
+							<a href="#popoverTH">입력</a>
+							<div id="popoverTH" class="popover hide">
+								비고를 입력하는 곳입니다.
+							</div>
+						</th>
+						<th>제목셀3</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>
+							<select>
+								<option value="" selected="selected">셀렉트1</option>
+								<option value="">셀렉트2</option>
+							</select>
+						</td>
+						<td>
+							<input type="text" name=""/>
+						</td>
+						<td>
+							<button type="button" class="btn">수정</button>
+						</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td><a href="#">Vertical Table Example (Board type)</a></td>
+						<td>
+							<input type="text" name=""/>
+						</td>
+						<td>
+							<button type="button" class="btn">수정</button>
+						</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>
+							<select>
+								<option value="" selected="selected">셀렉트1</option>
+								<option value="">셀렉트2</option>
+							</select>
+						</td>
+						<td>
+							<input type="text" name=""/>
+						</td>
+						<td>
+							<button type="button" class="btn">수정</button>
+						</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>
+							<select>
+								<option value="" selected="selected">셀렉트1</option>
+								<option value="">셀렉트2</option>
+							</select>
+						</td>
+						<td>
+							<input type="text" name=""/>
+						</td>
+						<td>
+							<button type="button" class="btn">수정</button>
+						</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>
+							<select>
+								<option value="" selected="selected">셀렉트1</option>
+								<option value="">셀렉트2</option>
+							</select>
+						</td>
+						<td>
+							<input type="text" name=""/>
+						</td>
+						<td>
+							<button type="button" class="btn">수정</button>
+						</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>
+							<select>
+								<option value="" selected="selected">셀렉트1</option>
+								<option value="">셀렉트2</option>
+							</select>
+						</td>
+						<td>
+							<input type="text" name=""/>
+						</td>
+						<td>
+							<button type="button" class="btn">수정</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="group_paging">
+				<a href="#none">1</a>
+				<a href="#none">2</a>
+				<span class="on">3</span>
+				<a href="#none">4</a>
+				<a href="#none">5</a>
+				<a href="#none">6</a>
+				<a href="#none">7</a>
+				<a href="#none">8</a>
+				<a href="#none">9</a>
+				<a href="#none">10</a>
+				<a href="#none" class="link_edge">다음</a>
+			</div>
+			<div class="wrap">
+				<a href="#" class="btn f_l">이전</a>
+				<div class="f_r">
+					<select>
+						<option value="" selected="selected">제목</option>
+						<option value="">내용</option>
+					</select>
+					<div class="combo">
+						<input  type="text" name="" size="14"/>
+						<button type="button" class="btn">입력</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="wrap wrap_foot">
+		<span class="line_break"></span>
+		<a href="#none">서비스 약관/정책</a> | <a href="#none">개인정보취급방침</a> | <a href="#none">권리침해신고</a> | <a href="#none">서비스 고객센터</a> | <a href="#none">서비스 문의하기</a>
+		<address class="copyright">Copyright (c) <a href="http://info.daum.net/" class="link_daum">Daum Communications.</a> All rights reserved.</address>
+	</div>
+
+</div>
+
+
+
+</body>
+</html>

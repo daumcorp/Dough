@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/*
+
+Responsible Module for Dough v 0.1.1
+
+Daum Communications
+Webstandards Tech team.
+
+*/
+
+@media screen and (max-width:800px) {
+	
+	/* reset */
+	.responsible,
+	.responsible th,
+	.responsible td,
+	.responsible input,
+	.responsible select,
+	.responsible textarea,
+	.responsible button {font-size:0.9em;}
+	
+	/* wrap */
+	.responsible .wrap_page {width:auto;min-width:0;padding:0 0.5em}
+
+	/* headings */
+	.responsible h1, 
+	.responsible h2, 
+	.responsible h3, 
+	.responsible h4, 
+	.responsible h5, 
+	.responsible h6 {margin:1em 0 0.5em;line-height:1.25em;}
+	.responsible h1 {font-size:2em;}
+	.responsible h2 {font-size:1.5em;}
+	.responsible h3 {font-size:1.4em;}
+	.responsible h4 {font-size:1.2em;}
+	.responsible h5 {font-size:1.1em;}
+	.responsible h6 {font-size:1em;}
+
+	/* clear float on Mobile*/
+	.responsible .response_no_float {float:none !important}
+	
+	/* grid */
+	.responsible .response_no_grid {width:auto !important;}
+
+	/* list_article */
+	.responsible .list_article,
+	.responsible .list_article > li {margin:0;}
+	.responsible .list_article {margin-left:-0.5em;margin-right:-0.5em;}
+	.responsible .list_article > li {list-style:none;}
+	.responsible .list_article > li > a {display:block;overflow:hidden;padding:0.5em;border-bottom:1px solid #ccc;text-overflow:ellipsis;white-space:nowrap;}
+	.responsible .list_article > li:first-child > a {border-top:1px solid #ccc;}
+
+	/* nav_top */
+	.responsible .nav_top {background:#5182f5;}
+	.responsible .nav_top .wrap_page {padding:0;}
+	.responsible .nav_top.nav_fixed {position:static;}
+	.responsible .wrap_page.nav_fixed {padding-top:0;}
+	.responsible .nav_top h1 {float:none;margin:0;padding-top:0.25em;padding-bottom:0.35em;font-size:1.6em;background:#3d414d}
+	.responsible .nav_top ul {float:none;}
+	.responsible .nav_top ul > li > a {padding:0 0.6em;}
+	
+	/* tab */
+	.responsible .tab_bar > li > a {padding:0.75em 1em;}
+	.responsible .tab_small > li > a {padding:0.5em 0.75em;}
+
+	/* 
+	** Paging 
+	*/
+	
+	.responsible .group_paging > a,
+	.responsible .group_paging > span {padding:0.5em 1em;margin:0;}
+	.responsible .group_paging .link_edge {padding-left:0.5em;padding-right:0.5em;}
+
+}
+

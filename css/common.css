@@ -1,0 +1,20 @@
+
+@charset "UTF-8";
+
+/* Code Style */
+#doughContent .code {position:relative;margin:0.5em 0 2.25em;padding:0.75em;border:1px solid #ccc;font-family:'Lucida Sans';color:#efefef;background:#333;letter-spacing:0px;font-size:1.1em;line-height:1.75em;clear:both;}
+#doughContent .code .emph {color:yellow;}
+#doughContent .img_example {width:100%;}
+
+/* scroll_fix */
+.scroll_fix.fixed {position:fixed;top:50px;}
+.nav_bar.fixed {margin-top:0;top:0;}
+
+/* 반응형 커스터마이징 */
+@media screen and (max-width:800px) {
+	.responsible .scroll_fix.fixed {position:static;}
+	.responsible .nav_bar.fixed {margin-top:0;top:0;}
+	
+	.responsible .nav_top ul > li > a {padding:0 0.75em;}
+	.responsible .nav_top #goOven {display:none;}
+}
