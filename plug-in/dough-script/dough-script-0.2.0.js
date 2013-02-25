@@ -231,7 +231,7 @@
 	 * 화면사이즈가 작아졌을 때 모바일에 적합하게 변경시켜줍니다.
 	 */
 	$.initResponsibleNav = function(){
-		if($("body.responsible").length > 0){
+		if($("body.responsible .nav_top").length > 0 ){
 			var _isNavChanged = false,
 				navList = $(".nav_top > ul").eq(0);
 			var render = function(callback){
