@@ -42,11 +42,6 @@ Webstandards Tech team.
 	/* grid */
 	.responsible .response_no_grid {width:auto !important;}
 
-	/* list_article */
-	.responsible ul.d_list,
-	.responsible ul.d_list {}
-	.responsible ul.d_list > li > a {display:block;overflow:hidden;padding:0.5em;border-bottom:1px solid #ccc;text-overflow:ellipsis;white-space:nowrap;}
-	.responsible ul.d_list > li:first-child > a {border-top:1px solid #ccc;}
 
 	/* nav_top */
 	.responsible .nav_top {background:#5182f5;}
