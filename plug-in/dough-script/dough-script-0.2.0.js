@@ -96,7 +96,8 @@
 				};
 				$(this).removeAttr("title");
 				this._tipBox.insertAfter(this).css({
-					"marginTop": (this._tipBox.outerHeight()+3) * -1
+					top: $(this).position().top - this._tipBox.outerHeight(),
+					left: $(this).position().left + $(this).outerWidth()
 				})
 			};
 			
