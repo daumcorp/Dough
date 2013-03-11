@@ -54,6 +54,9 @@ Webstandards Tech team.
 	.responsible .nav_top.type_white h1 {border-bottom:1px solid #ccc;background:#fff;}
 	.responsible .nav_top.type_white ul {}
 	
+	.responsible .nav_top.type_sub {margin-bottom:40px}
+	.responsible .nav_top ul > li > ul {top:90px}
+	
 	.responsible #navListWrapper {overflow:auto;position:relative;width:100%;height:42px;}
 	.responsible #navListWrapper > ul {position:absolute;width:2000px;}
 
