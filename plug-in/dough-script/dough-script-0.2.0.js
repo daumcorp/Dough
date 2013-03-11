@@ -249,7 +249,6 @@
 					_isNavChanged = true;
 				}else if($(window).width() > 801 && _isNavChanged){
 					navList.unwrap().width("");
-					
 					_isNavChanged = false;
 				};
 			};
@@ -273,7 +272,7 @@
 	$.initDough = function(){
 		$("*[data-tip-event]").tip();
 		$(".tab_bar[data-tab-event]").tab();
-		$.initResponsibleNav();
+
 
 		
 	};
