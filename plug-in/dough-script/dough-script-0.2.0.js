@@ -163,8 +163,6 @@
 		};
 		
 		this._open = function(){
-			var e = e || window.event;
-			(e.preventDefault) ? e.preventDefault : e.returnValue = false;
 			this._dimmed().show();
 			$(this).show();
 			
@@ -181,8 +179,6 @@
 		};
 		
 		this._close = function(callback){
-			var e = e || window.event;
-			(e.preventDefault) ? e.preventDefault : e.returnValue = false;
 			$(this).css({
 				"-webkitTransform": "scale(0)",
 				"-mozTransform": "scale(0)",
@@ -220,6 +216,9 @@
 		this._open();
 		
 		$(this).find("*[data-pop-close='true']").on("click", {"pop": this}, function(e){
+			var e = e || window.event;
+			(e.preventDefault) ? e.preventDefault : e.returnValue = false;
+			
 			var pop = e.data.pop;
 			pop._close(_options.callback);
 		});
