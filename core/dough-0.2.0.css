@@ -432,7 +432,8 @@ table.d_table th {background:#f7f7f7;}
 .nav_top ul > li > a:hover {background:#5182f5;}
 .nav_top ul > li.on > a {font-weight:bold;background:#3d61b8;}
 .nav_top.type_sub {position:relative;padding-bottom:35px;border-bottom-color:#cbd0d3}
-.nav_top.type_sub ul > li > ul {position:absolute;top:40px;left:0;width:100%;background:#f0f1f5;}
+.nav_top.type_sub ul > li > ul {display:none;position:absolute;top:40px;left:0;width:100%;background:#f0f1f5;}
+.nav_top.type_sub ul > li.on > ul {display:block;}
 .nav_top.type_sub ul > li > ul > li {height:35px;}
 .nav_top.type_sub ul > li > ul > li > a {line-height:35px;color:#333;}
 .nav_top.type_sub ul > li > ul > li > a:hover {color:#5182f5;background:none;}
