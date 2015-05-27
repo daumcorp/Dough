@@ -322,6 +322,14 @@ select.d_form {min-width:100px;height:2.45em;padding:0.45em 0.5em;box-shadow:non
 input[type="text"].d_form, input[type="search"].d_form, input[type="password"].d_form {height:1.25em;}
 input[type="text"].d_form:focus, input[type="search"].d_form:focus, input[type="password"].d_form:focus,textarea.d_form:focus {border-color:#6b9de9}
 
+/* input - size */
+input[type="text"].d_form.type_mini,
+input[type="password"].d_form.type_mini{font-size:0.6em;padding:0.2em 0.6em;}
+input[type="text"].d_form.type_small,
+input[type="password"].d_form.type_small {font-size:0.9em;padding:0.3em 1em;}
+input[type="text"].d_form.type_large,
+input[type="password"].d_form.type_large {font-size:1.6em;padding:0.5em 1.25em;}
+
 /* label */
 label {margin:0 0.75em 0 0;}
 label > input[type="text"].d_form, 
